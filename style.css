@@ -1,0 +1,146 @@
+
+body {
+    background-color: #0A192F;
+    color: #CCD6F6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    padding: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 300px;
+    position: fixed;
+    left: 100px;
+}
+
+.sidebar h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    color: #64FFDA;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #8892B0;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8892B0;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, .active {
+    color: white;
+    border-bottom: 2px solid #64FFDA;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 30px;
+    border: 2px solid #ffffff; 
+}
+
+/* Footer com ícones */
+footer {
+    margin-top: 30px;
+}
+
+footer a img {
+    width: 24px;
+    margin-right: 10px;
+    filter: invert(60%);
+    transition: 0.3s;
+}
+
+footer a img:hover {
+    filter: invert(100%);
+}
+
+/* Conteúdo principal */
+main {
+    margin-left: 350px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Seções */
+section {
+    margin-bottom: 60px;
+    line-height: 1.6;
+}
+
+section h3 {
+    font-size: 24px;
+    border-bottom: 2px solid #64FFDA;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Experiência */
+.job {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.job h4 {
+    font-size: 18px;
+    color: white;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-date {
+    font-weight: normal;
+    align-items:left;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.tags {
+    background-color: #64FFDA;
+    color: #0A192F;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+}
